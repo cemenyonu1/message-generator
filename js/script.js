@@ -35,7 +35,10 @@ let rejectButton = document.createElement('button');
 rejectButton.innerText = 'Reject A Request';
 rejectButton.addEventListener('click', function() {
     reject()
-} )
+} );
+
+let answer = document.createElement('h3');
+
 
 //Append
 main.appendChild(title);
